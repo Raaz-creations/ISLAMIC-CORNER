@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts & Body */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(0, 100, 0, 0.8);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #00cc66;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: rgba(0, 170, 85, 0.8);
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  nav a, nav button {
+    color: white;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover,
+  nav button:hover {
+    color: #ffffcc;
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #006400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Content Box */
+  .box {
+    background-color: white;
+    border-left: 5px solid #00cc66;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 77, 38, 0.8);
+    color: #ddd;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #121212;
+    color: #eee;
+  }
+  
+  .dark-mode .box {
+    background-color: #1e1e1e;
+    border-left: 5px solid #00cc66;
+  }
+  
+  .dark-mode nav,
+  .dark-mode header,
+  .dark-mode footer {
+    background-color: #003300;
+    color: #ccc;
+  }
+  
